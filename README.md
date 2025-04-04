@@ -5,7 +5,7 @@ CLsquared is a command-line pipeline designed to identify and retain high-qualit
 CLsquared is effective for processing large-scale datasets, such as SARS-CoV-2 or Monkeypox repositories. The pipeline leverages the Python libraries *polars* and *multiprocessing* to significantly reduce computation time.
 For users with access to high-performance computing (HPC) infrastructure, CLsquared can efficiently handle massive sequence datasets. It achieves this by dividing the input sequence files into subpackages matching the number of available threads using the *samtools faidx* tool. Each subpackage is then processed in parallel, drastically accelerating the analysis.
 
-If the user prefers not to run the pipeline in this modality, the CLsquared-base pipeline is recommended instead. The polars library is still utilized to optimize computational efficiency. Additionally, large FASTA files can still be split into smaller chunks, which are processed sequentially further contributing to reduced computational time.
+If the user prefers not to run the pipeline in this modality, the CLsquared-base pipeline is recommended instead. The *polars* library is still used to optimize computational efficiency. Additionally, large FASTA files can still be split into smaller chunks, which are processed sequentially further contributing to reduced computational time.
 
 A detailed description of each cleaning step can be found at //, in the header of each script, or by using the --help command with each script.
 
