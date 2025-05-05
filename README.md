@@ -20,15 +20,14 @@ The CLsquared pipeline can be installed through the following command:
 
 CLsquared requires Python 3 (https://www.python.org/) and the installation of the following python packages:
 
-- pip3 install argparse
-- pip3 install biopython
-- pip3 install jenkspy
-- pip3 install kneebow
+- pip3 install biopython v. 1.81
+- pip3 install jenkspy v. 0.4.1
+- pip3 install kneebow v. 1.0.2
 - pip3 install multiprocessing
-- pip3 install numpy
-- pip3 install pandas
-- pip3 install polars
-- pip3 install plotly
+- pip3 install numpy v. 1.25.1
+- pip3 install pandas v. 2.0.3
+- pip3 install polars v. 1.21.0
+- pip3 install plotly v. 5.17.0
 - pip3 install statistics
 
 ### References
